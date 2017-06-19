@@ -3,8 +3,9 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-#masthead {
-  background-image: image("resources/images/the-flatiron-building.png");
+#hero {
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
 }
 
 h1 {
@@ -27,20 +28,23 @@ p {
   font-size: 14px;
 }
 
+a {
+    color: white;
+}
+
 .link {
-  font-size: 18px
-  color: white;
+  font-size: 18px;
 }
 
-#minimast {
-  background-image: image("resources/images/the-flatiron-building.png");
-}
-
-.legal {
-  font-size: 11px;
+#sidekick {
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: center;
   color: white;
 }
 
 #footer {
+  font-size: 11px;
+  color: white;
   background-color: dimgray;
+  text-align: left;
 }
